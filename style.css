@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    overflow-x: hidden;
+    top: 0;
+    margin: 0;right: 0;
+    left: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+} 
+li {
+    list-style-type: none;
+}
+a:hover{
+    color: grey;
+}
+h4 {
+    background-color: #c2996e;
+    color: rgb(247, 246, 246);
+    text-align: center;padding: 1px;
+    font-weight: 180;font-size: 15px;
+}
+img {
+    width: 100%;height: 100%;
+}
+.logo {
+    height: 15%;width: 15%;
+    margin-left: 44%;display: inline-block;
+}
+.nav-links a {
+    display: inline-block;text-align: center;
+    font-family: "Poppins", sans-serif;font-size: 15px;margin: 5px 8px 5px 8px;
+}
+.nav-links img {
+    width: 17px;height: 17px;margin-right: 5px;
+}
+.header-container{
+    width: 95%;
+    margin: auto;display: flex;
+    align-items: center;justify-content: space-between;
+    margin:10px 0px;
+}
+.nav-links a:nth-child(4), .nav-links a:nth-child(5) {
+    display: none;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.dropdown {
+    display: flex;
+    width: 100%;
+    margin: 3px 3px 3px 250px;
+    justify-content: center;
+    align-items: center;
+}
+#six {
+    color: grey;
+}
+.container a {
+    display: block;
+    text-decoration: none;
+    color: black;width: 190px;
+    padding: 3px 0;font-size: 16;
+    font-family: "Poppins", sans-serif;
+}
+.container a:hover {
+    color: grey;
+}
+.products {
+    display: none;
+    position: fixed;padding: 10px;
+    background-color: white;text-align: center;
+}
+.dropdown li:nth-child(2):hover .products{
+    display: block;
+}
+.input-s input {
+    width: 39%;padding: 8px 42px;
+    border-radius: 0.5rem;margin: 15px 30%;
+    border: 1px solid lightgray;
+    font-size: 15px;
+}
+.s-dropdown {
+    display: none;position: fixed;
+    width: 39%;padding: 10px;margin-top: 1px;
+    margin-left: 30%;border-radius: 0.5rem;
+    background-color: white;border: 1px solid lightgray;
+}
+.s-dropdown li {
+    color: black;width: 100%;
+    padding: 10px 0;font-size: 15;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.s-dropdown a{
+    color: rgb(19, 19, 19);
+}
+.input-s input:hover {
+    border: 2px solid #c2996e;
+}
+.input-s:hover .s-dropdown {
+    display: block;height: 40vh;overflow-x: hidden;
+}
+.s-dropdown li:hover {
+    background-color: #c2996e;
+}
+.background-image {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.534)), url(./bg\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;height: 100%;display: flex;
+    justify-content: center;align-items: center;
+}
+.b1 {
+    font-family: "Merriweather", serif;
+    font-weight: 80;
+    font-size: 35px;color: white;text-align: center;
+}
+.background-image input {
+    padding: 9px 15px;background: transparent;
+    color: white;width: 190px;font-size: 21px;
+    border: 1px solid white;border-radius: 0.3rem;
+    margin: 22px 0px 0px 127px;
+}
+.c input:hover{
+    background-color: white;
+    color: black;
+}
+.motto {
+    text-align: center;
+}
+.motto h1{
+    margin: 150px 0 30px 0;
+    font-size: 25px;
+    font-weight: 200;text-align: center;
+    font-family: "Proxima Nova";
+}
+.motto p {
+    width: 60%;font-size: 15px;
+    margin-left: 21%;justify-content: center;
+}
+.shop {
+    margin: 5px 20px;
+}
+.shop h3{
+    margin: 150px 0 30px 0;
+    font-size: 25px;
+    font-weight: 150;text-align: center;
+    font-family: "Proxima Nova";
+}
+.shop h5 {
+    font-size: 20px;
+    font-weight: 150;text-align:justify;
+    font-family: "Poppins", sans-serif;text-decoration: underline;
+}
+.box1, .box2, .box3, .box4, .box5 {
+    width: 200px;height: 200px;
+    display: inline-block;
+}
+.best-sellers, .new-arrivals, .trend {
+    width: 100%;
+    height: 50vh;display: inline-block;
+    margin-bottom: 50px;
+}
+.bs {
+    width: 15%;
+    margin: 40px 9px 10px 50px;background-color: #f5f5f5;
+}
+.shop p {
+    margin-top: 3px;font-size: 13px;width: 260px;
+}
+.gen h1 {
+    margin: 150px 0px 30px 0px;
+    font-size: 25px;
+    font-weight: 200;text-align: center;
+    font-family: "Proxima Nova";
+}
+.gen p {
+    font-size: 15px;width: 70%;
+    margin-left: 18%;   
+    text-align: center;
+}
+.vid {
+    text-align: center;
+}
+#vd {
+    margin: 80px 15px 80px 80px; width:42%;
+}
+#vd1 {
+    margin: 80px 80px 80px 15px; width:42%;
+}
+footer {
+    height: 90vh;width: 100%;
+    background-color: #eeeae6
+}
+.f-head li {
+    margin: 30px 10px 20px 85px;display: inline-block;
+    font-size: 15px;justify-content: space-around;
+    text-align: center;
+}
+.f-head li img{
+    width: 50px;height: 50px;
+    display: inline-block;margin-left: 5px;margin-right: 5px;
+}
+.f-head p {
+    display: inline-block;width: 140px;
+}
+.f-body {
+    width: 100%;margin-top: 90px;
+    height: 45vh;display: flex;justify-content: space-around;
+}
+.fb {
+    display: inline-block;margin-top: 5px;
+    margin-left: 6%;
+ }
+.fb h3 {
+    font-size: 25px;letter-spacing: 1px;
+    font-weight: 350;font-style: normal;
+    font-family: "Proxima Nova";
+}
+.fb p{
+    width: 500px;margin-top: 18px;
+    font-size: 13px;   
+}
+.fb img {
+    width: 30%;height: 13%;margin-top: 3%;
+}
+.policies {
+    display: inline-block;width: 150px;
+    margin-left: 75px;
+}
+.policies li {
+    width: 200px;font-size: 13px;margin-bottom: 3px;
+}
+.company {
+    display: inline-block;
+    width: 150px;margin-left: 30px;
+}
+.company li {
+    width: 200px;font-size: 13px;margin-bottom: 3px;
+}
+.account {
+    display: inline-block;width: 350px;margin-left: 30px;
+}
+.account p {
+    width: 80%;margin-bottom: 3px;font-size: 13px;
+}
+.account img {
+    width: 35px;height: 35px;margin-left: 15px;
+}
+.account-img {
+    display: none;
+}
+.account input {
+    width: 57%;margin-top: 13px;padding: 7px 0;
+    font-size: 15px;border: 1px solid black;
+}
+#in:hover {
+    background-color: #343a40;color: White;
+}
+#int {
+    background-color: #343a40;color: white;
+}
+.foot p {
+    font-size: 13px;margin: 15px 0px 0px 60px;
+    letter-spacing: 0.5px;
+}
+.foot img {
+    width: 55px;height: 55px;
+    position: fixed;
+    left: 92%;top: 85%;
+}
+@media only screen and (max-width:660px) {
+    .logo {
+        margin-left: 8%;
+    }
+    .nav-links a {
+        display: none;
+    }
+    .nav-links a:nth-child(4), .nav-links a:nth-child(5) {
+        display: inline;margin-right: 50px;
+    }
+    .container, .input-s {
+        display: none;
+    }
+    .box5 {
+        display: none;
+    }
+    .best-sellers, .new-arrivals, .trend {
+        width: 100%;height: 100vh;text-align: center;
+    }
+    .bs {
+        width: 30%;
+    }
+    .shop p {
+        width: auto;
+    }
+    #vd, #vd1 {
+        width: 100%;margin: 0px 0px 40px 10px;
+    }
+    footer {
+        height: 100vh;
+        width: 100%;
+        background-color: #eeeae6;
+    }
+    .f-head li {
+        width: 30%;margin: 35px 35px 5px 45px;
+    }
+    .f-head p {
+        width: 100%;text-align: center;
+    }
+    .f-body {
+       display: block; height: 90vh;
+       background-color: #eeeae6;
+    }
+    .fb {
+        display: block;margin: 15px;
+    }
+    .fb p {
+        width: auto;
+    }
+    .policies {
+        display: inline-block;margin: 20px;
+    }
+    .company {
+        display: inline-block;
+    }
+    .company li {
+        width: 200px;
+    }
+    .account h5, .account p, .account input {
+        visibility: hidden;
+    }
+    .account-img {
+        display: flex;
+        width: 33px;height: 33px;margin: 45px 0px 20px 20px;
+    }
+    .foot {
+        margin: 40px 35px 40px 0px;
+        text-align: center;
+    }
+    .foot img {
+        left: 83%;top: 85%;
+        position: fixed;
+    }
+}
